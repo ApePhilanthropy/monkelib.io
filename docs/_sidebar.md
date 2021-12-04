@@ -7,14 +7,14 @@
 
 - Environment
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
+  - [Climate Change](climatech.md)
+  - [Conservation](conservation.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
 - Health
 
-  - [Configuration](configuration.md)
+  - [c](configuration.md)
   - [Themes](themes.md)
   - [List of Plugins](plugins.md)
   - [Write a Plugin](write-a-plugin.md)
@@ -23,23 +23,13 @@
 
 - Social
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [Housing](deploy.md)
+  - [Healthcare](helpers.md)
 
 - Charities
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [How to look for a good charity](deploy.md)
+  - [Community picks](helpers.md)
 
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- [Disclaimer](disclaimer.md)
+- [Contact the team](contact.md)
