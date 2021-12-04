@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <title>ApeLibrary</title>
+    <link rel="icon" href="_media/favicon.ico" />
+    <meta name="google-site-verification"
+          content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords"
+          content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages" />
+    <meta name="description" content="A magical documentation generator." />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <!-- Theme: Simple Dark -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
+    <style>
+        nav.app-nav li ul {
+            min-width: 100px;
+        }
+
+        #carbonads {
+            box-shadow: none !important;
+            width: auto !important;
+        }
+    </style>
 </head>
+
 <body>
-    <div id="app">Loitering ...</div>
+    <div id="app">Loading ...</div>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1/index.js"></script>
     <script>
       // Set html "lang" attribute based on URL
@@ -39,7 +56,7 @@
             'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
         },
         auto2top: true,
-        coverpage: true,
+        coverpage: false,
         executeScript: true,
         loadSidebar: true,
         loadNavbar: true,
@@ -51,7 +68,7 @@
           host: '//matomo.thunderwave.de',
           id: 6,
         },
-        name: 'docsify',
+        name: 'apelib',
         search: {
           noData: {
             '/es/': '¡No hay resultados!',
@@ -144,7 +161,7 @@
                 editHtml +
                 html +
                 '\n\n----\n\n' +
-                '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+                '<a href="https://www.reddit.com/r/Apephilanthropy/" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Join the sub</a>'
               );
             }),
               hook.afterEach(function(html) {
@@ -153,7 +170,7 @@
                 }
                 return (
                   html +
-                  '<br/> <i>Vercel</i> has given us a Pro account <br/> <a href="https://vercel.com/?utm_source=docsifyjsdocs" target="_blank"><img src="https://cdn.jsdelivr.net/gh/docsifyjs/docsify/docs/_media/vercel_logo.svg" alt="Vercel" width="100" height="64"></a>'
+                  '<br/> Join the conversation on Discord <br/> <a href="https://discord.gg/EwrsfPXcaU" target="_blank"><img src="https://styles.redditmedia.com/t5_4b6vu5/styles/communityIcon_892o4wljn1y61.jpg?width=256&format=pjpg&s=5cc1fa4cfc7edd3a93e4bdaa2cddf43ca314bced" alt="Vercel" width="100" height="100"></a>'
                 );
               });
           },
@@ -185,17 +202,3 @@
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
 </body>
 </html>
-
-<!-- sidebar config -->
-
-<script>
-    window.$docsify = {
-        loadSidebar: true
-    }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-
-
-
-

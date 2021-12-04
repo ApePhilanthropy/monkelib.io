@@ -9,27 +9,25 @@
 
   - [Climate Change](climatech.md)
   - [Conservation](conservation.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
 
 - Health
 
-  - [c](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
+  - [Patient Support](patients.md)
+  - [Research](research.md)
+  - [Mental Health](mentalh.md)
+  - [LGBT Healthcare](LGBTh.md)
 
 - Social
 
-  - [Housing](deploy.md)
-  - [Healthcare](helpers.md)
+  - [Housing](housing.md)
+  - [Healthcare](healthcare.md)
+  - [Education](education.md)
+  - [Human Rights](humanr.md)
 
 - Charities
 
-  - [How to look for a good charity](deploy.md)
-  - [Community picks](helpers.md)
+  - [Charity tools](charityt.md)
+  - [Community picks](communityp.md)
 
 - [Disclaimer](disclaimer.md)
 - [Contact the team](contact.md)
