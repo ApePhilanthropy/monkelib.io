@@ -5,5 +5,6 @@
 Community links:
 
 ### [Discord](https://discord.gg/FqDzGtJAYt)
-### [Reddit]
-### [Element] 
+### [Reddit](https://www.reddit.com/r/Apephilanthropy/)
+### [Element](https://matrix.to/#/#mrgencyroom:matrix.org)
+### [Github](https://github.com/ApePhilanthropy/monkelib.io)
