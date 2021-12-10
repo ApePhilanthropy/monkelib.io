@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-[Home](/)
-[About](about.md "About")
+[Home](/ "About")
 
 
 
@@ -28,6 +27,7 @@
 
   - [Charities](charityt.md)
   - [Communities](communityp.md)
+  - [Useful Tools](toolbox.md)
 
 - [Disclaimer](disclaimer.md)
 - [Contact the team](contact.md)

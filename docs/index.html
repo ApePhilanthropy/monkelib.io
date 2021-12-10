@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <div id="app">Loading ...</div>
+    <div id="app">Loitering ...</div>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1/index.js"></script>
     <script>
       // Set html "lang" attribute based on URL
@@ -51,20 +51,8 @@
 
       // Docsify configuration
       window.$docsify = {
+
         alias: {
-          '.*?/awesome':
-            'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
-          '.*?/changelog':
-            'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
-          '/.*/_navbar.md': '/_navbar.md',
-          '/es/(.*)':
-            'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
-          '/de-de/(.*)':
-            'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
-          '/ru-ru/(.*)':
-            'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
-          '/zh-cn/(.*)':
-            'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
         },
         auto2top: true,
         coverpage: false,
@@ -74,26 +62,14 @@
         mergeNavbar: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        ga: 'UA-106147152-1',
-        matomo: {
-          host: '//matomo.thunderwave.de',
-          id: 6,
-        },
         name: 'apelib',
+
         search: {
           noData: {
-            '/es/': '¡No hay resultados!',
-            '/de-de/': 'Keine Ergebnisse!',
-            '/ru-ru/': 'Никаких результатов!',
-            '/zh-cn/': '没有结果!',
             '/': 'No results!',
           },
           paths: 'auto',
           placeholder: {
-            '/es/': 'Buscar',
-            '/de-de/': 'Suche',
-            '/ru-ru/': 'Поиск',
-            '/zh-cn/': '搜索',
             '/': 'Search',
           },
         },
@@ -151,49 +127,25 @@
           },
         },
         plugins: [
-          DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
-          function(hook, vm) {
-            hook.beforeEach(function(html) {
-              if (/githubusercontent\.com/.test(vm.route.file)) {
-                url = vm.route.file
-                  .replace('raw.githubusercontent.com', 'github.com')
-                  .replace(/\/master/, '/blob/master');
-              } else if (/jsdelivr\.net/.test(vm.route.file)) {
-                url = vm.route.file
-                  .replace('cdn.jsdelivr.net/gh', 'github.com')
-                  .replace('@master', '/blob/master');
-              } else {
-                url =
-                  'https://github.com/docsifyjs/docsify/blob/master/docs/' +
-                  vm.route.file;
-              }
-              var editHtml = '[:memo: Edit Document](' + url + ')\n';
-              return (
-                editHtml +
-                html +
-                '\n\n----\n\n' +
-                '<a href="https://www.reddit.com/r/Apephilanthropy/" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Join the sub</a>'
-              );
-            }),
-              hook.afterEach(function(html) {
-                if (vm.route.path === '/') {
-                  return html;
-                }
-                return (
-                  html +
-                  '<br/> Join the conversation on Discord <br/> <a href="https://discord.gg/EwrsfPXcaU" target="_blank"><img src="https://styles.redditmedia.com/t5_4b6vu5/styles/communityIcon_892o4wljn1y61.jpg?width=256&format=pjpg&s=5cc1fa4cfc7edd3a93e4bdaa2cddf43ca314bced" alt="Vercel" width="100" height="100"></a>'
-                );
-              });
-          },
+
         ],
       };
     </script>
+
+    <!-- Charty -->
+    <script src="docsify-charty.min.js"></script>
+    <link rel="stylesheet" href="docsify-charty.min.css">
+    charty: {
+    "theme": String,
+    "mode":  dark,
+    "debug": Boolean
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+
     <script>
         (function () {
             function loadJS(src, attrs) {

@@ -5,3 +5,27 @@
 test build locally
 
 ` docsify serve `
+
+adding charts and visualise data
+
+```charty
+{
+  "title":   '',
+  "caption": '',
+  "type":    '',
+  "options": {
+    "theme":   '',
+    "legend":  '',
+    "labels":  '',
+    "numbers": ''
+  },
+  "data": [
+    {
+      "label": '',
+      "value": '',
+      "colour": ''
+    }
+  ]
+}
+// close the code block
+// can't show it here
