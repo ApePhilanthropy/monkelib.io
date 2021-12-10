@@ -20,7 +20,15 @@
             --theme-color: green;
 
         }
-
+    
+        <link
+        rel="stylesheet"
+        href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
+        / >
+        <link
+        rel="stylesheet"
+        href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        / >
     </style>
     
 
@@ -37,6 +45,8 @@
         }
     </style>
 </head>
+
+<nav></nav>
 
 <body>
     <div id="app">Loitering ...</div>
@@ -58,11 +68,14 @@
         coverpage: false,
         executeScript: true,
         loadSidebar: true,
-        loadNavbar: true,
+        loadNavbar: false,
         mergeNavbar: true,
+
         maxLevel: 4,
         subMaxLevel: 2,
         name: 'apelib',
+
+        changelog: 'CHANGELOG.md',
 
         search: {
           noData: {
@@ -139,12 +152,14 @@
     "theme": String,
     "mode":  dark,
     "debug": Boolean
+
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
     <script>
         (function () {
@@ -162,6 +177,7 @@
         })();
     </script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
 </body>
 </html>
