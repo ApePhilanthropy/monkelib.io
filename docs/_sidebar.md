@@ -17,17 +17,17 @@
   - [Mental Health](mentalh.md)
   - [LGBT Healthcare](LGBTh.md)
 
-- Social
+- Human Rights
 
   - [Housing](housing.md)
   - [Healthcare](healthcare.md)
   - [Education](education.md)
   - [Human Rights](humanr.md)
 
-- Charities
+- Tools
 
-  - [Charity tools](charityt.md)
-  - [Community picks](communityp.md)
+  - [Charities](charityt.md)
+  - [Communities](communityp.md)
 
 - [Disclaimer](disclaimer.md)
 - [Contact the team](contact.md)

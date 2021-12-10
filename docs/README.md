@@ -1,10 +1,11 @@
-# :banana: Monke Library <!-- {docsify-ignore} -->
-####  Feed your smooth brain, grow wrinkles. 
+# Apelib.
 
------------
-Community links:
+## Monkey wisdom
 
-### [Discord](https://discord.gg/FqDzGtJAYt)
-### [Reddit](https://www.reddit.com/r/Apephilanthropy/)
-### [Element](https://matrix.to/#/#mrgencyroom:matrix.org)
-### [Github](https://github.com/ApePhilanthropy/monkelib.io)
+A wiki about all the under rated things
+
+- information and primary sources
+- community and peer review
+- directory of all useful tools and charities
+- help finding your online and local support groups
+- reading lists and media recommendations
