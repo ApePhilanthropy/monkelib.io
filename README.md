@@ -1,3 +1,9 @@
+
+<div align="center">
+  <img src="asset/monkelib.svg" width="70%"/>
+</div>
+
+
 # Welcome to the monke library
 
 ### This wiki is a collection of resources, information and ideas about under represented topics
