@@ -8,6 +8,19 @@
 
 ### This wiki is a collection of resources, information and ideas about under represented topics
 
+template for paper entry (link and doi)
+
+----
+```
+#Page Header
+## Section Header
+
+**Sauce title** [link](URL) (open access status and year)
+```doi```
+> tldr of paper, ideally jargon-free
+
+```
+
 test build locally
 
 ``` docsify serve  ```

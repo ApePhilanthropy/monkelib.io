@@ -2,10 +2,12 @@
 
 lorem ipsum
 
+
+
 ## Trans Healthcare
 
-Effects of gender-affirming hormone therapy (GAHT) on body composition markers in trans youth https://academic.oup.com/jcem/article/105/3/e704/5572616 (open access 2019)
-https://doi.org/10.1210/clinem/dgz029
+**Gender-affirming hormone therapy (GAHT) and body composition** [link](https://academic.oup.com/jcem/article/105/3/e704/5572616) (open access 2019)
+```https://doi.org/10.1210/clinem/dgz029```
 > GAHT makes body composition reach a mid point between BMI matched trans and cis individuals
 
 <!-- index.html -->

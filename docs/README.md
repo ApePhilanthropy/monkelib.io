@@ -17,10 +17,14 @@
 apelib is an open community project that aims to share information on under served topics - the goal is to have an open, community-driven platform for all related resources
 
 -----------
-⚠ *Join the community, reject the status quo* ⚠
 
+<div align="center">
+
+⚠ *Join the community, reject the status quo* ⚠
  ### [Discord](https://discord.gg/FqDzGtJAYt) x [Reddit](https://www.reddit.com/r/Apephilanthropy/) x [Element](https://matrix.to/#/#mrgencyroom:matrix.org) x [Github](https://github.com/ApePhilanthropy/monkelib.io)
+
+</div>
 
 ----
 
-Powered by [Docsify](https://docsify.js.org/#/) :heart:
+##### Powered by [Docsify](https://docsify.js.org/#/) :heart:
