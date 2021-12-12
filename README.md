@@ -23,7 +23,9 @@ template for paper entry (link and doi)
 
 test build locally
 
-``` docsify serve  ```
+```
+docsify serve
+```
 
 adding charts and visualise data
 
