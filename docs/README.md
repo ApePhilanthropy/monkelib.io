@@ -1,4 +1,6 @@
-﻿# Apelib.
+﻿<div align="center">
+  <img src="_media/monkelib.svg" width="70%"/>
+</div>
 
 
 ### A wiki about all the under rated things

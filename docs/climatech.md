@@ -1,27 +1,8 @@
 ﻿# Climate Change
 
-If you need more pages, you can simply create more markdown files in your docsify directory. If you create a file named `guide.md`, then it is accessible via `/#/guide`.
+**IPCC Special Report on the impact of global warming of 1.5°C above pre industrial levels** http://www.vliz.be/en/imis?module=ref&refid=323552 (2019, open access)
 
-For example, the directory structure is as follows:
-
-```text
-.
-└── docs
-    ├── README.md
-    ├── guide.md
-    └── zh-cn
-        ├── README.md
-        └── guide.md
-```
-
-Matching routes
-
-```text
-docs/README.md        => http://domain.com
-docs/guide.md         => http://domain.com/#/guide
-docs/zh-cn/README.md  => http://domain.com/#/zh-cn/
-docs/zh-cn/guide.md   => http://domain.com/#/zh-cn/guide
-```
+> mitigation options, risk assessment, socio-economic impact, sustainable development, eradication of poverty
 
 ## Historical Trends
 

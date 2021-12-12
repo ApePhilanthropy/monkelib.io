@@ -65,24 +65,11 @@ Example file structure:
 
 ## Reproductive Rights
 
-You may want the sidebar to update with only navigation to reflect the current directory. This can be done by adding a `_sidebar.md` file to each folder.
 
-`_sidebar.md` is loaded from each level directory. If the current directory doesn't have `_sidebar.md`, it will fall back to the parent directory. If, for example, the current path is `/guide/quick-start`, the `_sidebar.md` will be loaded from `/guide/_sidebar.md`.
-
-You can specify `alias` to avoid unnecessary fallback.
-
-```html
-<script>
-  window.$docsify = {
-    loadSidebar: true,
-    alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-    }
-  }
-</script>
+**Poststerilization regret** https://www.sciencedirect.com/science/article/abs/pii/S0029784498005390?via%3Dihub
+```tldr
+most women DO NOT regret tubal ligation 1999
 ```
-
-!> You can create a `README.md` file in a subdirectory to use it as the landing page for the route.
 
 ## Socio-Economic Rights
 
