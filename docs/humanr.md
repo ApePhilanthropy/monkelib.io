@@ -70,6 +70,21 @@ Example file structure:
 ```tldr
 most women DO NOT regret tubal ligation 1999
 ```
+abortion charity (need to DYOR wip)
+
+https://prochoice.org/patients/naf-hotline/
+
+NAF hotline 1-800-772-9100 (funding hotline which also can provide logistical support & coordination to your closest out of state clinic)
+
+https://fundtexaschoice.org
+
+https://teafund.org
+
+https://abortionfunds.org
+
+**Gender-affirming hormone therapy (GAHT) and body composition** [link](https://academic.oup.com/jcem/article/105/3/e704/5572616) (open access 2019)
+```https://doi.org/10.1210/clinem/dgz029```
+> GAHT makes body composition reach a mid point between BMI matched trans and cis individuals
 
 ## Socio-Economic Rights
 
@@ -83,19 +98,10 @@ A page's `title` tag is generated from the _selected_ sidebar item name. For bet
 
 ## Freedom
 
-Once you've created `_sidebar.md`, the sidebar content is automatically generated based on the headers in the markdown files.
+need DYOR
 
-A custom sidebar can also automatically generate a table of contents by setting a `subMaxLevel`, compare [subMaxLevel configuration](configuration.md#submaxlevel).
+freedom of religion
 
-```html
-<!-- index.html -->
-
-<script>
-  window.$docsify = {
-    loadSidebar: true,
-    subMaxLevel: 2
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-```
+https://ffrf.org
+https://www.secularism.org.uk
 
